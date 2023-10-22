@@ -1,0 +1,45 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+.box {
+  width: 150px;
+  height: 150px;
+  background-color: grey;
+  margin: auto;
+  margin-bottom: 5px;
+  /* border: solid 1px black; */
+  /* transition-delay: 2s; */
+  transition-duration: 1s;
+  /* transition: 1s ease-in; */
+  cursor: pointer;
+}
+
+#red {
+  background-color: red;
+}
+
+#red:hover {
+  background-color: #ff8000;
+  width: 300px;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#blue:hover {
+  background-color: #ff8000;
+  height: 300px;
+}
+
+#green {
+  background-color: green;
+}
+
+#green:hover {
+  background-color: #ff8000;
+  height: 300px;
+  width: 300px;
+}
